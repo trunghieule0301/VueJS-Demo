@@ -9,6 +9,7 @@ import Home from '../views/Home.vue'
 import VuelidatePage from '../views/VuelidatePage'
 import Edit from '../views/Edit.vue'
 import Details from '../views/Details.vue'
+import VeeValidatePage from '../views/VeeValidatePage.vue'
 
 Vue.use(VueRouter)
 
@@ -32,6 +33,11 @@ const routes = [
     path: '/vuelidate',
     name: 'Vuelidate',
     component: VuelidatePage
+  },
+  {
+    path: '/vee-validate',
+    name: 'VeeValidate',
+    component: VeeValidatePage
   },
   {
     path: '/user/details/:id',

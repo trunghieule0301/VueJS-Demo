@@ -38,6 +38,11 @@
           <span>Vuelidate</span>
           <router-link to="/vuelidate" />
         </a-menu-item>
+        <a-menu-item key="7">
+          <a-icon type="form" />
+          <span>VeeValidate</span>
+          <router-link to="/vee-validate" />
+        </a-menu-item>
       </a-menu>
       <div style="padding: 25px">
         <p>Theme</p>
